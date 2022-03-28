@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html>
-<body>
+@push('content')
+<h1>Welcome!</h1>
 
-<h1>My First Heading</h1>
+<img src="https://streetcatsgallery.files.wordpress.com/2022/03/pexels-no-name-787876.jpg?w=1024" alt="cat">
 
 <p>Hello everyone! This website is dedicated to various topics about street cats.
     Here you will be able to read our articles about the most
@@ -13,13 +12,4 @@
         properly care for </a>felines you found on the street.
     And if you prefer to look at images over reading, you can head over
     to the <a href="{{ route('street-cat-gallery') }}">street cat gallery!</a></p>
-
-</body>
-</html>
-
-
-
-
-
-
-
+@endpush

@@ -29,6 +29,6 @@ Route::get('/how-to-care-for-street-cats', function () {
     return view('care');
 })->name('how-to-care-for-street-cats');
 
-Route::get('/street-cat-gallery', function () {
-    return view('gallery');
-})->name('street-cat-gallery');
+Route::get('/how-to-introduce-a-new-cat-to-other-cats-at-home', function () {
+    return view('introduce');
+})->name('how-to-introduce-a-new-cat-to-other-cats-at-home');
