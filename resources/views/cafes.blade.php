@@ -1,3 +1,4 @@
+@extends('master')
 @push('content')
 <!-- wp:paragraph -->
 <p>Alongside <a href="https://streetcatsgallery.wordpress.com/interesting-places-to-see-stray-cats/">places with many stray cats</a>, there are establishments dedicated to cats, such as cat cafes as seen below.</p>

@@ -1,3 +1,4 @@
+@extends('master')
 @push('content')
 <!-- wp:heading {"level":4} -->
 <h4>Hello dear cat lovers!</h4>

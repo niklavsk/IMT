@@ -1,3 +1,4 @@
+@extends('master')
 @push('content')
 <!-- wp:paragraph -->
 <p>Hello dear cat owners!</p>

@@ -1,3 +1,4 @@
+@extends('master')
 @push('content')
 <h1>Welcome!</h1>
 

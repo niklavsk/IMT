@@ -1,3 +1,4 @@
+@extends('master')
 @push('content')
 <!-- wp:paragraph -->
 <p>There are many places all around the world that are known to be populated by a lot of stray cats and people flock to these locations just to say hi to the little furry animals. Many places have a lot of stray cats due to their rich history like the fishing villages in Japan where stray cats are cared for. Other places like Hemingway's Home is known for having a lot of cats with unique traits - read more to find out!</p>
