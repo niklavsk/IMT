@@ -65,7 +65,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>If you find a lone cat or litter of kittens who are not feral, or adapted to the wild, check with local rescue organizations to see about finding the felines forever homes. Look for no-kill shelters and rescue organizations.&nbsp;You can also continue helping already sheltered cats by <a href="https://streetcatsgallery.wordpress.com/how-can-i-volunteer-to-help-cats/">volunteering at local rescue shelters</a>.</p>
+<p>If you find a lone cat or litter of kittens who are not feral, or adapted to the wild, check with local rescue organizations to see about finding the felines forever homes. Look for no-kill shelters and rescue organizations.&nbsp;You can also continue helping already sheltered cats by volunteering at local rescue shelters.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
