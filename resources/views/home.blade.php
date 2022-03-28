@@ -10,6 +10,6 @@
     learn more about <a href="{{ route('cat-cafes') }}">popular
         cat cafes </a>and find out <a href="{{ route('how-to-care-for-street-cats') }}">how to
         properly care for </a>felines you found on the street.
-    And if you prefer to look at images over reading, you can head over
-    to the <a href="{{ route('street-cat-gallery') }}">street cat gallery!</a></p>
+    You can head over to the <a href="{{ route('how-to-introduce-a-new-cat-to-other-cats-at-home') }}">
+        to learn how to introduce a new cat to other cats at home!</a></p>
 @endpush
