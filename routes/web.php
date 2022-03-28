@@ -14,5 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/interesting-places-to-see-stray-cats', function () {
+    return view('places');
+})->name('interesting-places-to-see-stray-cats');
+
+Route::get('/cat-cafes', function () {
+    return view('cafes');
+})->name('cat-cafes');
+
+Route::get('/how-to-care-for-street-cats', function () {
+    return view('care');
+})->name('how-to-care-for-street-cats');
+
+Route::get('/street-cat-gallery', function () {
+    return view('gallery');
+})->name('street-cat-gallery');
