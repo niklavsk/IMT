@@ -1,4 +1,89 @@
 @extends('master')
+@push('head')
+<script type="application/ld+json">
+    {
+      "@context": "https://kadikis.id.lv/interesting-places-to-see-stray-cats",
+      "@type": "Place",
+      "Places": [
+      {
+       "@type": "Place",
+       "@name": "Tashirojima",
+       "address": {
+            "@type": "PostalAddress",
+            "addressCountry":"Japan"
+	    },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "38.3",
+            "longitude": "141.416667"
+        }
+        },
+        {
+        "@type": "Place",
+        "@name": "The Ernest Hemingway Home and Museum",
+        "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "USA",
+                "addressRegion": "Florida",
+                "postalCode": "FL 33040", 
+                "streetAddress":"907 Whitehead St, Key West, FL 33040",
+                "contactOption": "+1 305-294-1136",
+                "contactType": "Phone",
+                "hoursAvailable": {
+                	"@type": "OpeningHoursSpecification",
+                    "opens": "09:00:00",
+                    "closes": "17:00:00",
+                    "dayOfWeek": "Monday Tuesday Wednesday Thursday Friday Saturday Sunday"
+                }
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "25.551",
+                "longitude": "181.80"
+            }   
+        },
+        {
+        "@type": "Place",
+        "@name": "Torre Argentina Cat Sanctuary",
+        "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Italy",
+                "addressRegion": "Rome",
+                "postalCode": "00186 Roma", 
+                "streetAddress":"scavi archeologici, Largo di Torre Argentina angolo, Largo Arenula, 00186 Roma RM",
+                "contactOption": "+39 06 6880 5611",
+                "contactType": "Phone",
+                "hoursAvailable": {
+                	"@type": "OpeningHoursSpecification",
+                    "opens": "12:00:00",
+                    "closes": "17:00:00",
+                    "dayOfWeek": "Monday Tuesday Wednesday Thrusday Friday Saturday Sunday"
+                }
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "41.89536633761228",
+                "longitude": "12.476605699587752"
+            }   
+        },
+        {
+        "@type": "Place",
+        "@name": "Houtong",
+        "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Taiwan",
+                "addressRegion": "Ruifang District"
+            },
+         "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "25.087011076913246",
+                "longitude": "121.82744139676184"
+            }   
+        }
+    ]
+   	}
+</script>
+@endpush
 @push('content')
 <!-- wp:paragraph -->
 <p>There are many places all around the world that are known to be populated by a lot of stray cats and people flock to these locations just to say hi to the little furry animals. Many places have a lot of stray cats due to their rich history like the fishing villages in Japan where stray cats are cared for. Other places like Hemingway's Home is known for having a lot of cats with unique traits - read more to find out!</p>
