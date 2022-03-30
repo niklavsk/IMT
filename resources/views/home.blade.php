@@ -6,7 +6,7 @@
 @push('content')
 <h1>Welcome to the Stray Cats Gallery!</h1>
 
-<img src="{{ url('/images/homepage.jpg') }}" alt="A picture of two cats on a street">
+<img src="{{ url('/images/homepage.jpg') }}" class="half-width" alt="A picture of two cats on a street">
 
 <p>Hello everyone! This website is dedicated to various topics about street cats.
     Here you will be able to read our articles about the most
