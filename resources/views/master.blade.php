@@ -7,7 +7,9 @@
     @stack('head')
 </head>
 <body>
-@stack('content')
+    <div class="container">
+        @stack('content')
+    </div>
 </body>
 </html>
 
