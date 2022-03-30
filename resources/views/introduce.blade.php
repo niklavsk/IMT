@@ -1,4 +1,5 @@
 @extends('master')
+
 @push('title')
     How to Introduce a New Cat to Other Cats at Home
 @endpush
@@ -99,10 +100,11 @@
 @endpush
 
 @push('content')
-<h1>How to Introduce a New Cat to Other Cats at Home</h1>
-
 <div class="m-5">
-    <h2><b>Hello dear cat owners!</b></h2>
+    <div class="text-center">
+        <h1 class="mb-5">How to Introduce a New Cat to Other Cats at Home</h1>
+    </div>
+    <h2>Hello dear cat owners!</h2>
     <p>
         It is well known thing cats are living beings and living beings may be sensitive.
         That is why it is of an urgent importance to know what is the proper way to introduce the newly adopted cat
