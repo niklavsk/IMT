@@ -1,4 +1,7 @@
-@extends('master', ['title' => 'How to introduce a new cat to other cats at home'])
+@extends('master')
+@push('title')
+    How to Introduce a New Cat to Other Cats at Home
+@endpush
 
 @push('head')
     <script type="application/ld+json">
@@ -96,6 +99,8 @@
 @endpush
 
 @push('content')
+<h1>How to Introduce a New Cat to Other Cats at Home</h1>
+
 <div class="m-5">
     <h2><b>Hello dear cat owners!</b></h2>
     <p>
