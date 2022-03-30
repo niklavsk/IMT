@@ -1,4 +1,8 @@
 @extends('master')
+@push('title')
+    Interesting places where you can find a lot of stray cats
+@endpush
+
 @push('head')
 <script type="application/ld+json">
     {
@@ -25,7 +29,7 @@
                 "@type": "PostalAddress",
                 "addressCountry": "USA",
                 "addressRegion": "Florida",
-                "postalCode": "FL 33040", 
+                "postalCode": "FL 33040",
                 "streetAddress":"907 Whitehead St, Key West, FL 33040",
                 "contactOption": "+1 305-294-1136",
                 "contactType": "Phone",
@@ -40,7 +44,7 @@
                 "@type": "GeoCoordinates",
                 "latitude": "25.551",
                 "longitude": "181.80"
-            }   
+            }
         },
         {
         "@type": "Place",
@@ -49,7 +53,7 @@
                 "@type": "PostalAddress",
                 "addressCountry": "Italy",
                 "addressRegion": "Rome",
-                "postalCode": "00186 Roma", 
+                "postalCode": "00186 Roma",
                 "streetAddress":"scavi archeologici, Largo di Torre Argentina angolo, Largo Arenula, 00186 Roma RM",
                 "contactOption": "+39 06 6880 5611",
                 "contactType": "Phone",
@@ -64,7 +68,7 @@
                 "@type": "GeoCoordinates",
                 "latitude": "41.89536633761228",
                 "longitude": "12.476605699587752"
-            }   
+            }
         },
         {
         "@type": "Place",
@@ -78,13 +82,15 @@
                 "@type": "GeoCoordinates",
                 "latitude": "25.087011076913246",
                 "longitude": "121.82744139676184"
-            }   
+            }
         }
     ]
    	}
 </script>
 @endpush
 @push('content')
+<h1>Interesting places where you can find a lot of stray cats</h1>
+
 <!-- wp:paragraph -->
 <p>There are many places all around the world that are known to be populated by a lot of stray cats and people flock to these locations just to say hi to the little furry animals. Many places have a lot of stray cats due to their rich history like the fishing villages in Japan where stray cats are cared for. Other places like Hemingway's Home is known for having a lot of cats with unique traits - read more to find out!</p>
 <!-- /wp:paragraph -->
@@ -94,7 +100,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":49,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://streetcatsgallery.files.wordpress.com/2022/03/tashirojima-cat-island-japan.jpg?w=800" alt="Stray Cats on the Tashirojima Cat Island in Japan" class="wp-image-49"/><figcaption>Cats on a sunny day on the Tashirojima </figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ url('/images/interesting-places-1.jpg') }}" alt="Stray Cats on the Tashirojima Cat Island in Japan" class="wp-image-49"/><figcaption>Cats on a sunny day on the Tashirojima </figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -103,7 +109,7 @@
 
 <!-- wp:gallery {"linkTo":"none"} -->
 <figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":51,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://streetcatsgallery.files.wordpress.com/2022/03/tashirojima-cat-shrine-768x432-1.jpg?w=768" alt="A cat next to the cat shrine on the Tashirojima Island" class="wp-image-51"/></figure>
+    <figure class="wp-block-image size-large"><img src="{{ url('/images/interesting-places-2.jpg') }}" alt="A cat next to the cat shrine on the Tashirojima Island" class="wp-image-51"/></figure>
     <!-- /wp:image --><figcaption class="blocks-gallery-caption">Cat sitting near the cat shrine on the Tashirojima</figcaption></figure>
 <!-- /wp:gallery -->
 
@@ -120,7 +126,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":106,"sizeSlug":"large","linkDestination":"custom"} -->
-<figure class="wp-block-image size-large"><a href="https://www.nytimes.com/2017/09/11/us/hemingway-cats-irma.html"><img src="https://streetcatsgallery.files.wordpress.com/2022/03/12xp-hemingwaycats-jumbo.jpg?w=1024" alt="Six-toed cats near the Hemingway home-museum" class="wp-image-106"/></a><figcaption>Cats near the Hemingway home</figcaption></figure>
+<figure class="wp-block-image size-large"><a href="https://www.nytimes.com/2017/09/11/us/hemingway-cats-irma.html"><img src="{{ url('/images/interesting-places-3.jpg') }}" alt="Six-toed cats near the Hemingway home-museum" class="wp-image-106"/></a><figcaption>Cats near the Hemingway home</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
@@ -136,7 +142,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":107,"sizeSlug":"large","linkDestination":"custom"} -->
-<figure class="wp-block-image size-large"><a href="https://www.tickitaly.com/blog/2021/02/meet-the-torre-argentina-cat-sanctuary/"><img src="https://streetcatsgallery.files.wordpress.com/2022/03/torre-argentina-cats-1-e1461690249514.jpg?w=900" alt="Feral cats in a cat sanctuary in the center of Rome, Italy" class="wp-image-107"/></a><figcaption>Rome Cats - Torre Argentina Cat Sanctuary</figcaption></figure>
+<figure class="wp-block-image size-large"><a href="https://www.tickitaly.com/blog/2021/02/meet-the-torre-argentina-cat-sanctuary/"><img src="{{ url('/images/interesting-places-4.jpg') }}" alt="Feral cats in a cat sanctuary in the center of Rome, Italy" class="wp-image-107"/></a><figcaption>Rome Cats - Torre Argentina Cat Sanctuary</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -148,7 +154,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":125,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://streetcatsgallery.files.wordpress.com/2022/03/image-3.png?w=1024" alt="Cats eating in the streets of Houtong" class="wp-image-125"/><figcaption>Cats here are used to amateur paparazzi</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ url('/images/interesting-places-5.jpg') }}" alt="Cats eating in the streets of Houtong" class="wp-image-125"/><figcaption>Cats here are used to amateur paparazzi</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

@@ -1,5 +1,11 @@
 @extends('master')
+@push('title')
+    How to Care for Street Cats
+@endpush
+
 @push('content')
+<h1>How to Care for Street Cats</h1>
+
 <!-- wp:heading {"level":4} -->
 <h4>Hello dear cat lovers!</h4>
 <!-- /wp:heading -->
@@ -9,7 +15,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":72,"width":438,"height":583,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://streetcatsgallery.files.wordpress.com/2022/03/some-stray-kitty.jpg?w=768" alt="" class="wp-image-72" width="438" height="583"/><figcaption>"Wouldn't you like to adopt her?"</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img src="{{ url('/images/care-1.jpg') }}" alt="" class="wp-image-72"/><figcaption>"Wouldn't you like to adopt her?"</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5} -->

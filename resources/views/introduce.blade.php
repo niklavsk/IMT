@@ -1,4 +1,7 @@
 @extends('master')
+@push('title')
+    How to Introduce a New Cat to Other Cats at Home
+@endpush
 
 @push('head')
     <title></title>
@@ -88,6 +91,8 @@
 @endpush
 
 @push('content')
+<h1>How to Introduce a New Cat to Other Cats at Home</h1>
+
 <div class="m-5">
     <h2><b>Hello dear cat owners!</b></h2>
     <p>
@@ -97,8 +102,8 @@
     </p>
     <figure class="wp-block-image size-large is-resized">
         <img
-            src="https://streetcatsgallery.files.wordpress.com/2022/03/donalds.jpg?w=768"
-            alt="" class="img-fluid" width="422" height="563"/>
+            src="{{ url('/images/introduce-1.jpg') }}"
+            alt="" class="img-fluid"/>
         <figcaption>A picture of a cat who has been well introduced to the family</figcaption>
     </figure>
     <h4>
