@@ -6,12 +6,12 @@
 @push('head')
 <script type="application/ld+json">
     {
-      "@context": "https://kadikis.id.lv/interesting-places-to-see-stray-cats",
+      "@context": "https://schema.org",
       "@type": "Place",
       "Places": [
       {
        "@type": "Place",
-       "@name": "Tashirojima",
+       "name": "Tashirojima",
        "address": {
             "@type": "PostalAddress",
             "addressCountry":"Japan"
@@ -24,7 +24,7 @@
         },
         {
         "@type": "Place",
-        "@name": "The Ernest Hemingway Home and Museum",
+        "name": "The Ernest Hemingway Home and Museum",
         "address": {
                 "@type": "PostalAddress",
                 "addressCountry": "USA",
@@ -48,7 +48,7 @@
         },
         {
         "@type": "Place",
-        "@name": "Torre Argentina Cat Sanctuary",
+        "name": "Torre Argentina Cat Sanctuary",
         "address": {
                 "@type": "PostalAddress",
                 "addressCountry": "Italy",
@@ -72,7 +72,7 @@
         },
         {
         "@type": "Place",
-        "@name": "Houtong",
+        "name": "Houtong",
         "address": {
                 "@type": "PostalAddress",
                 "addressCountry": "Taiwan",
