@@ -133,9 +133,7 @@
         <img src="{{URL::to('/')}}/images/existing_cat.jpg" class="img-fluid" width="600" />
     </div>
     <p>
-        <strong>A.</strong>
-        <strong>No free-feeding –</strong>
-        Make sure you have switched your existing cat over to a routine of meal feeding, rather than free feeding her.
+        No free-feeding – Make sure you have switched your existing cat over to a routine of meal feeding, rather than free feeding her.
         This concept is foundational to my approach, and nowhere is it more important than during the introduction process.
         Once these scheduled meal times are established, it will set the stage for both your existing cat and your
         newcomer to experience a shared, ritualistic way of being: they get fed, around the same time,
@@ -179,10 +177,10 @@
     <img src="{{URL::to('/')}}/images/cat_swap.jpg" class="img-fluid mb-2" width="300" />
     <p class="mb-2"><b>Follow this simple process for harmonious site swapping:</b></p>
     <ol>
-        <li>1. Carry the newcomer out of his base camp, put him in the bathroom, and shut the door.</li>
-        <li>2. Allow the resident cat to walk into the newcomer’s base camp, then shut that door.</li>
-        <li>3. Allow the newcomer to explore the rest of the home.</li>
-        <li>4. Rinse and repeat.</li>
+        <li>Carry the newcomer out of his base camp, put him in the bathroom, and shut the door.</li>
+        <li>Allow the resident cat to walk into the newcomer’s base camp, then shut that door.</li>
+        <li>Allow the newcomer to explore the rest of the home.</li>
+        <li>Rinse and repeat.</li>
     </ol>
     <h4 id="step5" class="mb-4">Step 5 - The “Other Side of the Door” Feeding Ritual</h4>
     <div class="text-center mb-3">
@@ -200,6 +198,9 @@
     <p>
         Open the door a little bit - let you new cat see and smell the existing one and vice versa.
     </p>
+    <div class="text-center mb-3">
+        <img src="{{URL::to('/')}}/images/introduction.jpg" class="img-fluid" width="500" />
+    </div>
     <h4 id="step7" class="mb-3">
         Step 7 - Don't forget to give your cat freedom when he feels comfortable enough to get out of the room
     </h4>
