@@ -7,13 +7,13 @@
             "@type": "NewsArticle",
             "author": {
                 "@type": "Person",
-                "name": "Anna Rozvadovska",
+                "name": "Anna",
                 "url": "https://github.com/annarozv"
             },
             "datePublished": "2022-03-28T08:00:00+08:00",
             "dateModified": "2022-03-28T08:00:00+08:00",
             "headline": "Popular Cat Cafes with Terraces",
-            "image": "https://streetcatsgallery.files.wordpress.com/2022/03/pexels-sami-aksu-10207624.jpg"
+            "image": "https://kadikis.id.lv/images/cat-cafes-1.jpg"
         }
     </script>
 @endpush
