@@ -73,7 +73,7 @@
         and we for sure have answers to them!</p>
 
     <figure class="wp-block-image size-large is-resized">
-        <img src="{{ url('/images/care-1.jpg') }}" alt="" class="wp-image-72"/>
+        <img src="{{ url('/images/care-1.jpg') }}" alt="" class="half-width"/>
         <figcaption>"Wouldn't you like to adopt her?"</figcaption>
     </figure>
 

@@ -100,7 +100,6 @@
 @endpush
 
 @push('content')
-<div class="m-5">
     <div class="text-center">
         <h1 class="mb-5">How to Introduce a New Cat to Other Cats at Home</h1>
     </div>
@@ -214,5 +213,4 @@
     <div class="text-center mb-3">
         <img src="{{URL::to('/')}}/images/cats_together.jpg" class="img-fluid" width="500" />
     </div>
-</div>
 @endpush

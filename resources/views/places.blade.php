@@ -45,7 +45,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":49,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ url('/images/interesting-places-1.jpg') }}" alt="Stray Cats on the Tashirojima Cat Island in Japan" class="wp-image-49"/><figcaption>Cats on a sunny day on the Tashirojima </figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ url('/images/interesting-places-1.jpg') }}" alt="Stray Cats on the Tashirojima Cat Island in Japan" class="half-width"/><figcaption>Cats on a sunny day on the Tashirojima </figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -54,7 +54,7 @@
 
 <!-- wp:gallery {"linkTo":"none"} -->
 <figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":51,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="{{ url('/images/interesting-places-2.jpg') }}" alt="A cat next to the cat shrine on the Tashirojima Island" class="wp-image-51"/></figure>
+    <figure class="wp-block-image size-large"><img src="{{ url('/images/interesting-places-2.jpg') }}" alt="A cat next to the cat shrine on the Tashirojima Island" class="half-width"/></figure>
     <!-- /wp:image --><figcaption class="blocks-gallery-caption">Cat sitting near the cat shrine on the Tashirojima</figcaption></figure>
 <!-- /wp:gallery -->
 
@@ -71,7 +71,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":106,"sizeSlug":"large","linkDestination":"custom"} -->
-<figure class="wp-block-image size-large"><a href="https://www.nytimes.com/2017/09/11/us/hemingway-cats-irma.html"><img src="{{ url('/images/interesting-places-3.jpg') }}" alt="Six-toed cats near the Hemingway home-museum" class="wp-image-106"/></a><figcaption>Cats near the Hemingway home</figcaption></figure>
+<figure class="wp-block-image size-large"><a href="https://www.nytimes.com/2017/09/11/us/hemingway-cats-irma.html"><img src="{{ url('/images/interesting-places-3.jpg') }}" alt="Six-toed cats near the Hemingway home-museum" class="half-width"/></a><figcaption>Cats near the Hemingway home</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
@@ -87,7 +87,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":107,"sizeSlug":"large","linkDestination":"custom"} -->
-<figure class="wp-block-image size-large"><a href="https://www.tickitaly.com/blog/2021/02/meet-the-torre-argentina-cat-sanctuary/"><img src="{{ url('/images/interesting-places-4.jpg') }}" alt="Feral cats in a cat sanctuary in the center of Rome, Italy" class="wp-image-107"/></a><figcaption>Rome Cats - Torre Argentina Cat Sanctuary</figcaption></figure>
+<figure class="wp-block-image size-large"><a href="https://www.tickitaly.com/blog/2021/02/meet-the-torre-argentina-cat-sanctuary/"><img src="{{ url('/images/interesting-places-4.jpg') }}" alt="Feral cats in a cat sanctuary in the center of Rome, Italy" class="half-width"/></a><figcaption>Rome Cats - Torre Argentina Cat Sanctuary</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -99,7 +99,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":125,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="{{ url('/images/interesting-places-5.jpg') }}" alt="Cats eating in the streets of Houtong" class="wp-image-125"/><figcaption>Cats here are used to amateur paparazzi</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="{{ url('/images/interesting-places-5.jpg') }}" alt="Cats eating in the streets of Houtong" class="half-width"/><figcaption>Cats here are used to amateur paparazzi</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
