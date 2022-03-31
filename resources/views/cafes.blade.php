@@ -1,5 +1,9 @@
 @extends('master')
 
+@push('title')
+    Popular Cat Cafes with terraces
+@endpush
+
 @push('head')
     <script type="application/ld+json">
         {
