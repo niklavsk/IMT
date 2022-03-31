@@ -12,6 +12,8 @@
         "@type": "Movie",
         "name": "The Island of Cats",
         "dateCreated": "2019",
+        "url": "https://kadikis.id.lv/interesting-places-to-see-stray-cats",
+        "image": "https://kadikis.id.lv//images/the island of cats.jpg",
         "director": {
         	"@type": "Person",
             "name": "Mitsuaki Iwago"
@@ -79,6 +81,13 @@
 
 <!-- wp:paragraph -->
 <p>Cats are well cared-for since the locals believe that caring for them brings good luck and fortune. Tashirojima is the most well-known "cat island" even though Japan has several other little islands that are known for its large amount of cats, outnumbering the human population. Other islands include Aoshima, Manabeshima, Enoshima and others with 11 islands in total. The cat islands are such a staple there are many movies - both documental and fictional - made about them like <a href="https://www.imdb.com/title/tt8845988/"> the heartwarming The Island of Cats movie</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":49,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="{{ url('/images/the island of cats.jpg') }}" alt="The Island of Cats movie poster" class="half-width"/></figure>
+<!-- /wp:image -->
+<!-- wp:paragraph -->
+<p>The movie takes place on a small island that is populated with many cats. The main character is a seventy-year-old widowed man named Daikichi lives on a small island with his beloved pet cat.</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
