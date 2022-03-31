@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/interesting-places-to-see-stray-cats', function () {
     return view('places');
@@ -32,3 +32,8 @@ Route::get('/how-to-care-for-street-cats', function () {
 Route::get('/how-to-introduce-a-new-cat-to-other-cats-at-home', function () {
     return view('introduce');
 })->name('how-to-introduce-a-new-cat-to-other-cats-at-home');
+
+Route::get('/sitemap.xml', function() {
+    return response()->view('sitemap')
+        ->header('Content-Type', 'xml');
+});
