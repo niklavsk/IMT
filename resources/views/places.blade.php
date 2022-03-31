@@ -7,29 +7,48 @@
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
+      "Items": [
+      {
+        "@type": "Movie",
+        "name": "The Island of Cats",
+        "dateCreated": "2019",
+        "director": {
+        	"@type": "Person",
+            "name": "Mitsuaki Iwago"
+        },
+		"aggregateRating": {
+             "@type": "AggregateRating",
+             "ratingValue": "6.4",
+             "bestRating": "10",
+             "ratingCount": "240"
+        }
+		},
+        {
         "@type": "Place",
         "name": "The Ernest Hemingway Home and Museum",
         "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "USA",
-                "addressRegion": "Florida",
-                "postalCode": "FL 33040",
-                "streetAddress":"907 Whitehead St, Key West, FL 33040",
-                "contactOption": "+1 305-294-1136",
-                "contactType": "Phone",
-                "hoursAvailable": {
-                	"@type": "OpeningHoursSpecification",
-                    "opens": "09:00:00",
-                    "closes": "17:00:00",
-                    "dayOfWeek": "Monday Tuesday Wednesday Thursday Friday Saturday Sunday"
-                }
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "25.551",
-                "longitude": "181.80"
-            }
-        },
+                  "@type": "PostalAddress",
+                  "addressCountry": "USA",
+                  "addressRegion": "Florida",
+                  "postalCode": "FL 33040",
+                  "streetAddress":"907 Whitehead St, Key West, FL 33040",
+                  "contactOption": "+1 305-294-1136",
+                  "contactType": "Phone",
+                  "hoursAvailable": {
+                      "@type": "OpeningHoursSpecification",
+                      "opens": "09:00:00",
+                      "closes": "17:00:00",
+                      "dayOfWeek": "Monday Tuesday Wednesday Thursday Friday Saturday Sunday"
+                  }
+              },
+          "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": "25.551",
+                  "longitude": "181.80"
+              }
+          }
+         ]
+ 
    	}
 </script>
 @endpush
@@ -59,7 +78,7 @@
 <!-- /wp:gallery -->
 
 <!-- wp:paragraph -->
-<p>Cats are well cared-for since the locals believe that caring for them brings good luck and fortune. Tashirojima is the most well-known "cat island" even though Japan has several other little islands that are known for its large amount of cats, outnumbering the human population. Other islands include Aoshima, Manabeshima, Enoshima and others with 11 islands in total.</p>
+<p>Cats are well cared-for since the locals believe that caring for them brings good luck and fortune. Tashirojima is the most well-known "cat island" even though Japan has several other little islands that are known for its large amount of cats, outnumbering the human population. Other islands include Aoshima, Manabeshima, Enoshima and others with 11 islands in total. The cat islands are such a staple there are many movies - both documental and fictional - made about them like <a href="https://www.imdb.com/title/tt8845988/"> the heartwarming The Island of Cats movie</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
