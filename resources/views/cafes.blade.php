@@ -25,7 +25,7 @@
 @push('content')
     <h1>Popular Cat Cafes with terraces</h1>
     <p>
-        Alongside <a href="https://streetcatsgallery.wordpress.com/interesting-places-to-see-stray-cats/">places with
+        Alongside <a href="{{ route('interesting-places-to-see-stray-cats') }}">places with
             many stray cats</a>, there are establishments dedicated to cats, such as cat cafes as seen below.
     </p>
 
