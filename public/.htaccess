@@ -14,6 +14,11 @@
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
 
+    Options +FollowSymLinks
+    RewriteCond %{HTTP_HOST} .
+    RewriteCond %{HTTP_HOST} !^kadikis\.id.lv
+    RewriteRule (.*) https://kadikis.id.lv/$1 [R=301,L]
+
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
