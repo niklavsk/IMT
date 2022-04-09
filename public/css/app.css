@@ -1,3 +1,8 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -10,6 +15,12 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  .topnav a {
+    font-size: 20px;
+  }
 }
 
 .topnav a.active {
@@ -27,11 +38,23 @@
   max-width: 1000px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    margin: 15px 0;
+  }
+}
+
 .container .half-width {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+@media (max-width: 768px) {
+  .container .half-width {
+    width: 100%;
+  }
 }
 
 .container img {
@@ -44,16 +67,72 @@
   text-align: center;
 }
 
-.container p {
+@media (max-width: 768px) {
+  .container figcaption {
+    font-size: 22px;
+  }
+}
+
+.container p,
+.container li {
   font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .container p,
+  .container li {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container h2 {
+    font-size: 28px;
+  }
 }
 
 .container h3 {
   margin: 30px 0 20px 0;
 }
 
-.container h4,
+@media (max-width: 768px) {
+  .container h3 {
+    margin: 40px 0 20px 0;
+    font-size: 26px;
+  }
+}
+
+.container h4 {
+  margin: 25px 0 10px 0;
+}
+
+@media (max-width: 768px) {
+  .container h4 {
+    margin: 30px 0 10px 0;
+    font-size: 24px;
+  }
+}
+
 .container h5 {
   margin: 20px 0 10px 0;
+}
+
+@media (max-width: 768px) {
+  .container h5 {
+    margin: 25px 0 10px 0;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container h6 {
+    font-size: 20px;
+  }
 }
 
