@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Stray Cats Gallery - @stack('title')</title>
+    <title>@stack('title')</title>
     <meta name="description" content="@stack('description')">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
