@@ -4,6 +4,10 @@
     Popular Cat Cafes with terraces
 @endpush
 
+@push('description')
+    Get to know the best Cat Cafes out there in the world!
+@endpush
+
 @push('head')
     <script type="application/ld+json">
         {

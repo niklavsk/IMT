@@ -4,6 +4,10 @@
     How to Care for Street Cats
 @endpush
 
+@push('description')
+    Read about the best advices from qualified professionals on how to properly care for stray cats and make them no harm.
+@endpush
+
 @push('head')
     <script type="application/ld+json">
         {

@@ -3,6 +3,10 @@
     Interesting places where you can find a lot of stray cats
 @endpush
 
+@push('description')
+    Pack your bag and travel to the most interesting places where you can find a lot of stray cats and even pet them!
+@endpush
+
 @push('head')
 <script type="application/ld+json">
     {
@@ -50,7 +54,7 @@
               }
           }
          ]
- 
+
    	}
 </script>
 @endpush

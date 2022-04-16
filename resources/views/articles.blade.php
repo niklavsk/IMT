@@ -4,6 +4,10 @@
     All articles
 @endpush
 
+@push('description')
+    Introduce yourself to the list of articles that our team has prepared for you!
+@endpush
+
 @push('head')
     <script type="application/ld+json">
         {
