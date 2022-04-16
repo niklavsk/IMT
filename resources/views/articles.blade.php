@@ -1,7 +1,7 @@
 @extends('master')
 
 @push('title')
-    All articles
+    All Stray Cats Gallery articles
 @endpush
 
 @push('description')

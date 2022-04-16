@@ -1,6 +1,6 @@
 @extends('master')
 @push('title')
-    Homepage
+    Stray Cats Gallery
 @endpush
 
 @push('description')

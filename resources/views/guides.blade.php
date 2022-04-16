@@ -1,7 +1,7 @@
 @extends('master')
 
 @push('title')
-    Guides
+    Stray Cats Gallery guide articles
 @endpush
 
 @push('description')

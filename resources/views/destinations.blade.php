@@ -1,7 +1,7 @@
 @extends('master')
 
 @push('title')
-    Destinations
+    Stray Cats Gallery destination articles
 @endpush
 
 @push('description')
