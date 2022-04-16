@@ -6,31 +6,46 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://kadikis.id.lv/</loc>
-        <lastmod>2022-04-09T12:30:46+00:00</lastmod>
+        <lastmod>2022-04-16T16:00:19+00:00</lastmod>
         <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://kadikis.id.lv/articles</loc>
+        <lastmod>2022-04-16T16:00:19+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://kadikis.id.lv/articles/destinations</loc>
+        <lastmod>2022-04-16T16:00:19+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://kadikis.id.lv/articles/guides</loc>
+        <lastmod>2022-04-16T16:00:19+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
         <loc>
             https://kadikis.id.lv/interesting-places-to-see-stray-cats
         </loc>
-        <lastmod>2022-04-09T12:30:46+00:00</lastmod>
+        <lastmod>2022-04-16T16:00:19+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://kadikis.id.lv/cat-cafes</loc>
-        <lastmod>2022-04-09T12:30:46+00:00</lastmod>
+        <lastmod>2022-04-16T16:00:19+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://kadikis.id.lv/how-to-care-for-street-cats</loc>
-        <lastmod>2022-04-09T12:30:46+00:00</lastmod>
+        <lastmod>2022-04-16T16:00:19+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>
             https://kadikis.id.lv/how-to-introduce-a-new-cat-to-other-cats-at-home
         </loc>
-        <lastmod>2022-04-09T12:30:46+00:00</lastmod>
+        <lastmod>2022-04-16T16:00:19+00:00</lastmod>
         <priority>0.80</priority>
     </url>
 </urlset>
