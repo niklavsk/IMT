@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('/articles', function () {
+    return view('articles');
+})->name('articles');
+
 Route::get('/interesting-places-to-see-stray-cats', function () {
     return view('places');
 })->name('interesting-places-to-see-stray-cats');

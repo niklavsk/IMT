@@ -10,6 +10,7 @@
 <body>
     <div class="topnav">
         <a class="active" href="{{ route('home') }}" rel="nofollow">Home</a>
+        <a href="{{ route('articles') }}">Articles</a>
     </div>
 
     <div class="container">
