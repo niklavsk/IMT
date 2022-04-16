@@ -3,6 +3,10 @@
     Homepage
 @endpush
 
+@push('description')
+    Welcome to the Stray Cats Gallery! Get to know more about the cats!
+@endpush
+
 @push('content')
 <h1>Welcome to the Stray Cats Gallery!</h1>
 
