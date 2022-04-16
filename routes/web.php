@@ -21,6 +21,14 @@ Route::get('/articles', function () {
     return view('articles');
 })->name('articles');
 
+Route::get('/articles/destinations', function () {
+    return view('destinations');
+})->name('destinations');
+
+Route::get('/articles/guides', function () {
+    return view('guides');
+})->name('guides');
+
 Route::get('/interesting-places-to-see-stray-cats', function () {
     return view('places');
 })->name('interesting-places-to-see-stray-cats');

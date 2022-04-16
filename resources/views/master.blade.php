@@ -11,7 +11,13 @@
 <body>
     <div class="topnav">
         <a class="active" href="{{ route('home') }}" rel="nofollow">Home</a>
-        <a href="{{ route('articles') }}">Articles</a>
+        <div class="dropdown">
+            <a href="{{ route('articles') }}" class="dropbtn">Articles</a>
+            <div class="dropdown-content">
+                <a href="{{ route('destinations') }}">Destinations</a>
+                <a href="{{ route('guides') }}">Guides</a>
+            </div>
+        </div>
     </div>
 
     <div class="container">

@@ -1,15 +1,15 @@
 @extends('master')
 
 @push('title')
-    All articles
+    Destinations
 @endpush
 
 @push('description')
-    Introduce yourself to the list of articles that our team has prepared for you!
+    Introduce yourself to the list of articles about places you can visit!
 @endpush
 
 @push('content')
-    <h1>All articles</h1>
+    <h1>Articles about destinations</h1>
 
     <ul class="article-list">
         <li>
@@ -25,22 +25,6 @@
             </div>
 
             <a href="{{ route('cat-cafes') }}">Popular Cat Cafes with terraces</a>
-        </li>
-
-        <li>
-            <div class="image-container">
-                <img src="{{ url('/images/care-1.jpg') }}" alt="Cat next to a window"/>
-            </div>
-
-            <a href="{{ route('how-to-care-for-street-cats') }}">How to Care for Street Cats</a>
-        </li>
-
-        <li>
-            <div class="image-container">
-                <img src="{{ url('/images/donalds.jpg') }}" alt="Cat on a closet"/>
-            </div>
-
-            <a href="{{ route('how-to-introduce-a-new-cat-to-other-cats-at-home') }}">How to Introduce a New Cat to Other Cats at Home</a>
         </li>
     </ul>
 @endpush

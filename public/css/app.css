@@ -5,6 +5,7 @@ html {
 
 .topnav {
   background-color: #333;
+  height: 55px;
   overflow: hidden;
 }
 
@@ -15,6 +16,7 @@ html {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  height: inherit;
 }
 
 @media (max-width: 768px) {
@@ -31,6 +33,46 @@ html {
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+.topnav div.dropdown {
+  height: inherit;
+  position: absolute;
+  display: inline-block;
+}
+
+.topnav div.dropdown .dropbtn {
+  color: white;
+}
+
+.topnav div.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav div.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.topnav div.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160px;
+  z-index: 1;
+  top: 55px;
+}
+
+.topnav div.dropdown .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 55px;
+}
+
+.topnav div.dropdown .dropdown-content a:hover {
+  background-color: #f1f1f1;
 }
 
 .container {

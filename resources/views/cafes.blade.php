@@ -24,6 +24,23 @@
             "image": "https://kadikis.id.lv/images/cat-cafes-1.jpg"
         }
     </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+              "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Articles",
+                "item": "https://kadikis.id.lv/articles"
+              },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Destinations",
+                "item": "https://kadikis.id.lv/articles/destinations"
+              }]
+        }
+    </script>
 @endpush
 
 @push('content')
