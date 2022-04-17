@@ -101,6 +101,23 @@
             ]
         }
     </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+              "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Articles",
+                "item": "https://kadikis.id.lv/articles"
+              },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Guides",
+                "item": "https://kadikis.id.lv/articles/guides"
+              }]
+        }
+    </script>
 @endpush
 
 @push('content')

@@ -57,6 +57,23 @@
 
    	}
 </script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Articles",
+            "item": "https://kadikis.id.lv/articles"
+          },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Destinations",
+            "item": "https://kadikis.id.lv/articles/destinations"
+          }]
+    }
+</script>
 @endpush
 @push('content')
 <h1>Interesting places where you can find a lot of stray cats</h1>
